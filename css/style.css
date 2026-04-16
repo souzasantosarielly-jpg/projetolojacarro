@@ -15,12 +15,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p, label{
-color: darkturquoise;
+color: rgb(255, 4, 192);
 }
 
 input {
     border: none;
-    background-position: 1px solid #ccc;
+    background-position: 1px solid #cccccc;
     padding: 10px 0;
 }
 
