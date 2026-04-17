@@ -114,3 +114,9 @@ margin-bottom: 5px;
     text-transform: uppercase;
     transition: 0.5s;
 }
+
+.btn-submit:hover{
+    background-color: deeppink;
+    color: mediumspringgreen;
+    border-color: darkslateblue;
+}
