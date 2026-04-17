@@ -55,3 +55,15 @@ background-color: rebeccapurple;
 border-bottom: 1px solid #ff00aa;
 height: 45px;
 }
+
+.form-header p {
+    color: lightcoral;
+    border-bottom: 2px solid #ffaf02;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    
+}
