@@ -6,7 +6,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 230, 0);
 
 }
 
@@ -20,10 +20,25 @@ color: rgb(255, 4, 192);
 
 input {
     border: none;
-    background-position: 1px solid #cccccc;
+    background-position: 1px solid #0aa5ff;
     padding: 10px 0;
 }
 
 input[type="text"],input[type="number"],input[type="date"],input[type="file"], textarea{
     width: 400px;
-}0
+}
+
+textarea{
+padding: 10px 5px;
+}
+
+.cabecalho {
+height: 160px;
+padding: 20px;
+background-color: rebeccapurple;
+}
+
+.cabecalho h3{
+    color: bisque;
+    margin-top: 0;
+}
