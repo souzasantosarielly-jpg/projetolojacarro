@@ -11,11 +11,11 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: greenyellow;
+    color: rgb(201, 98, 233);
 }
 
 p, label{
-color: rgb(255, 4, 192);
+color: rgb(99, 0, 74);
 }
 
 input {
