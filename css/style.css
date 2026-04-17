@@ -65,6 +65,9 @@ height: 45px;
     text-transform: uppercase;
     height: 45px;
     line-height: 45px;
-    
 
+
+}
+.form-body{
+padding: 30px;
 }
