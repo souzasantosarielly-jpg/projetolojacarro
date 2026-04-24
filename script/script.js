@@ -27,6 +27,14 @@ function salvarCarros(event) {
     adicionarnatela(carro);
 
     Document.querySelector("form").reset();
+
+}
+
+function adicionarnatela(carro) {
+    let lista = document.getElementById('listadecarros')
+    let card = document.createElement('div');
+    card.classList.add('card');
     
 }
+
 
