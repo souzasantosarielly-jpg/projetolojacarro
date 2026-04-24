@@ -11,16 +11,7 @@ function salvarCarros(event) {
 
     let cambio = cambioSelecionado ? cambioSelecionado.id : "Não informado";
 
-    let lista = document.getElementById('listarCarros');
-
-    let card = document.createElement('div');
-
-    card.style.border = "1px solid #ccc";
-    card.style.padding = "10px";
-    card.style.marginBottom = "10px";
-
-    lista.appendChild(card);
-
+  
     let carro = {
         titulo,
         preco,
@@ -32,4 +23,10 @@ function salvarCarros(event) {
     let carros = JSON.parse(localStorage.getItem("carros")) || [];
     carros.push(carro);
     localStorage.setItem("carros", JSON.stringify(carros));
+
+    adicionarnatela(carro);
+
+    Document.querySelector("form").reset();
+    
 }
+
