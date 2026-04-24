@@ -31,7 +31,7 @@ function salvarCarros(event) {
 }
 
 function adicionarnatela(carro) {
-    let lista = document.getElementById('listadecarros')
+    let lista = document.getElementById('listardecarros')
     let card = document.createElement('div');
     card.classList.add('card');
 
