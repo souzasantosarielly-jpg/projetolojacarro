@@ -2,10 +2,10 @@ function salvarCarros(event) {
     //impedir de recarregar a página
     event.preventDefault();
 
-    let titulo = document.getElementById('title');
-    let preco = document.getElementById('preco');
-    let marca = document.getElementById('marca');
-    let modelo = document.getElementById('modelo');
+    let titulo = document.getElementById('title').value ;
+    let preco = document.getElementById('preco').value;
+    let marca = document.getElementById('marca').value;
+    let modelo = document.getElementById('modelo').value;
 
     let cambioSelecionado = document.querySelector('input[name="marcha"]:checked');
 
@@ -24,9 +24,9 @@ function salvarCarros(event) {
     carros.push(carro);
     localStorage.setItem("carros", JSON.stringify(carros));
 
-    adicionarnatela(carro);
+    adicionarNatela(carro);
 
-    Document.querySelector("form").reset();
+    document.querySelector("form").reset();
 
 }
 
@@ -36,7 +36,7 @@ function adicionarNatela(carro){
         card.classList.add('card');
 
         card.innerHTML = `
-        <h3>${carro.titulo}<h3>
+        <h3>${carro.titulo}</h3>
         <p><strong>Preço:</strong> R$ ${carro.preco}</p>
         <p><strong>Marca:</strong> R$ ${carro.marca}</p>
         <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
