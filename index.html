@@ -21,7 +21,7 @@
             <div class="form-body">
                 <h1 class="form-titulo">Venda fácil seu carro!</h1>
                 <p>descreva as características do carro e marque os opcionais que ele possui</p>
-                <form onsubmit="salvarCarros"(event)">
+                <form onsubmit="salvarCarros"event">
                     <div class="caixainputs">
                         <label for="title">titúlo do anúncio <span class="campo-obrigatorio">*</span></label>
                         <input type="text" name="title" id="title" class="block" placeholder="digite um título"
@@ -103,7 +103,7 @@
                         </ul>
                     </div>
                     <div class="caixainputs">
-                        <p>fotos do carro <span class="campoobrigatorio">*</span>
+                        <p>fotos do carro <span class="campo-obrigatorio">*</span>
                             <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg"
                                 required>
 
